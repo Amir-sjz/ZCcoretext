@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376D538A1C284BD800EEDCC0 /* UtilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 376D53891C284BD800EEDCC0 /* UtilityHelper.m */; };
+		376D53B41C28514200EEDCC0 /* UtilityMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 376D53B31C28514200EEDCC0 /* UtilityMethod.m */; };
+		376D53B61C28549300EEDCC0 /* bd_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 376D53B51C28549300EEDCC0 /* bd_logo.png */; };
 		377D0D571C284A2C00E77A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D561C284A2C00E77A84 /* main.m */; };
 		377D0D5A1C284A2C00E77A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D591C284A2C00E77A84 /* AppDelegate.m */; };
 		377D0D5D1C284A2C00E77A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D5C1C284A2C00E77A84 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		377D0D651C284A2C00E77A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377D0D631C284A2C00E77A84 /* LaunchScreen.storyboard */; };
 		377D0D701C284A2C00E77A84 /* ZCcoretextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D6F1C284A2C00E77A84 /* ZCcoretextTests.m */; };
 		377D0D7B1C284A2C00E77A84 /* ZCcoretextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D7A1C284A2C00E77A84 /* ZCcoretextUITests.m */; };
+		377D0D8D1C284A7500E77A84 /* ZCBBSCoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D8A1C284A7500E77A84 /* ZCBBSCoreTextData.m */; };
+		377D0D8E1C284A7500E77A84 /* ZCCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D0D8C1C284A7500E77A84 /* ZCCoreTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		376D53881C284BD800EEDCC0 /* UtilityHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityHelper.h; sourceTree = "<group>"; };
+		376D53891C284BD800EEDCC0 /* UtilityHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityHelper.m; sourceTree = "<group>"; };
+		376D53B21C28514200EEDCC0 /* UtilityMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMethod.h; sourceTree = "<group>"; };
+		376D53B31C28514200EEDCC0 /* UtilityMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMethod.m; sourceTree = "<group>"; };
+		376D53B51C28549300EEDCC0 /* bd_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bd_logo.png; sourceTree = "<group>"; };
 		377D0D521C284A2C00E77A84 /* ZCcoretext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCcoretext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377D0D561C284A2C00E77A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		377D0D581C284A2C00E77A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,10 @@
 		377D0D761C284A2C00E77A84 /* ZCcoretextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCcoretextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377D0D7A1C284A2C00E77A84 /* ZCcoretextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCcoretextUITests.m; sourceTree = "<group>"; };
 		377D0D7C1C284A2C00E77A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377D0D891C284A7500E77A84 /* ZCBBSCoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBBSCoreTextData.h; sourceTree = "<group>"; };
+		377D0D8A1C284A7500E77A84 /* ZCBBSCoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBBSCoreTextData.m; sourceTree = "<group>"; };
+		377D0D8B1C284A7500E77A84 /* ZCCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCoreTextView.h; sourceTree = "<group>"; };
+		377D0D8C1C284A7500E77A84 /* ZCCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCoreTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376D53B11C28512A00EEDCC0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				376D53881C284BD800EEDCC0 /* UtilityHelper.h */,
+				376D53891C284BD800EEDCC0 /* UtilityHelper.m */,
+				376D53B21C28514200EEDCC0 /* UtilityMethod.h */,
+				376D53B31C28514200EEDCC0 /* UtilityMethod.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
 		377D0D491C284A2C00E77A84 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +126,11 @@
 		377D0D541C284A2C00E77A84 /* ZCcoretext */ = {
 			isa = PBXGroup;
 			children = (
+				376D53B51C28549300EEDCC0 /* bd_logo.png */,
+				377D0D881C284A7500E77A84 /* CoreText */,
 				377D0D581C284A2C00E77A84 /* AppDelegate.h */,
 				377D0D591C284A2C00E77A84 /* AppDelegate.m */,
+				376D53B11C28512A00EEDCC0 /* common */,
 				377D0D5B1C284A2C00E77A84 /* ViewController.h */,
 				377D0D5C1C284A2C00E77A84 /* ViewController.m */,
 				377D0D5E1C284A2C00E77A84 /* Main.storyboard */,
@@ -138,6 +166,17 @@
 				377D0D7C1C284A2C00E77A84 /* Info.plist */,
 			);
 			path = ZCcoretextUITests;
+			sourceTree = "<group>";
+		};
+		377D0D881C284A7500E77A84 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				377D0D891C284A7500E77A84 /* ZCBBSCoreTextData.h */,
+				377D0D8A1C284A7500E77A84 /* ZCBBSCoreTextData.m */,
+				377D0D8B1C284A7500E77A84 /* ZCCoreTextView.h */,
+				377D0D8C1C284A7500E77A84 /* ZCCoreTextView.m */,
+			);
+			path = CoreText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				377D0D651C284A2C00E77A84 /* LaunchScreen.storyboard in Resources */,
+				376D53B61C28549300EEDCC0 /* bd_logo.png in Resources */,
 				377D0D621C284A2C00E77A84 /* Assets.xcassets in Resources */,
 				377D0D601C284A2C00E77A84 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				377D0D5D1C284A2C00E77A84 /* ViewController.m in Sources */,
+				376D53B41C28514200EEDCC0 /* UtilityMethod.m in Sources */,
+				377D0D8D1C284A7500E77A84 /* ZCBBSCoreTextData.m in Sources */,
+				377D0D8E1C284A7500E77A84 /* ZCCoreTextView.m in Sources */,
+				376D538A1C284BD800EEDCC0 /* UtilityHelper.m in Sources */,
 				377D0D5A1C284A2C00E77A84 /* AppDelegate.m in Sources */,
 				377D0D571C284A2C00E77A84 /* main.m in Sources */,
 			);
@@ -415,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangcheng.ZCcoretext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -426,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangcheng.ZCcoretext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -496,6 +542,7 @@
 				377D0D811C284A2C00E77A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377D0D821C284A2C00E77A84 /* Build configuration list for PBXNativeTarget "ZCcoretextTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +551,7 @@
 				377D0D841C284A2C00E77A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377D0D851C284A2C00E77A84 /* Build configuration list for PBXNativeTarget "ZCcoretextUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +560,7 @@
 				377D0D871C284A2C00E77A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
